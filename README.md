@@ -21,7 +21,7 @@ Un programa realizado en Python que permite encriptar un mensaje.
 1. Clona el repositorio
 
 ```cmd
-git clone https://github.com/alonsoagustin/encrypt_a_message.git
+git clone https://github.com/alonsoagustin/encrypting_a_message.git
 ```
 
 2. Crea un entorno virtual e instala las dependencias
