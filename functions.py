@@ -2,6 +2,13 @@ alphabet = "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ "
 number = 0
 message = ""
 
+def start_program():
+    message = request_message()
+    number = request_number()
+    pattern = create_encrypt(number)
+    encrypted_message = pattern(message)
+    return print(encrypted_message)
+
 def request_number():
     """
     Solicita un numero y luego devuelve dicho numero.
